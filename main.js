@@ -104,7 +104,10 @@ Wagon.prototype.shouldQuarantine = function () {
 
 Wagon.prototype.totalFood = function () { 
 // Return the total amount of food among all occupants of the wagon.
+for(let i = 1; i < this.food ; i++){
 
+}
+return this.food
 }
 
 // Create a wagon that can hold 2 people
